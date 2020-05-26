@@ -5,7 +5,8 @@ import pytz
 
 from django.core.management.base import BaseCommand
 
-from activityRecord.models import User, activity_period 
+from activityRecord.models import activity_period
+from accounts.models import User 
 
 
 
